@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .book {
+      margin-bottom: 20px;
+    }
+    .book h2 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    .question {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f9f9f9;
+    }
+    .answer {
+      margin-top: 5px;
+      color: #555;
+    }
+    .back-button {
+      margin: 20px 0;
+    }
+    .back-button button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .back-button button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="back-button">
+      <button onclick="goBack()">← Back</button>
+    </div>
+
+    <h1>Classics</h1>
+
+    <!-- Book: Pride and Prejudice -->
+    <div class="book">
+      <h2>Pride and Prejudice – Jane Austen</h2>
+      <div class="question">
+        <strong>Question:</strong> Which 1995 children's TV show featured an episode titled "Furst Impressions," where a Jack Russell Terrier portrayed Mr. Darcy?  
+        <div class="answer"><strong>Answer:</strong> Wishbone.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which 1995 miniseries adaptation of Pride and Prejudice, starring Colin Firth as Mr. Darcy, is considered a benchmark for future adaptations?  
+        <div class="answer"><strong>Answer:</strong> The BBC miniseries Pride and Prejudice.</div>
+      </div>
+    </div>
+
+    <!-- Book: To Kill a Mockingbird -->
+    <div class="book">
+      <h2>To Kill a Mockingbird – Harper Lee</h2>
+      <div class="question">
+        <strong>Question:</strong> In the 1962 film adaptation of To Kill a Mockingbird, which actor delivered a 6-minute and 30-second summation speech in a single take?  
+        <div class="answer"><strong>Answer:</strong> Gregory Peck.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which actress, who played Scout in the 1962 film adaptation, formed a lifelong friendship with Gregory Peck, who portrayed Atticus Finch?  
+        <div class="answer"><strong>Answer:</strong> Mary Badham.</div>
+      </div>
+    </div>
+
+    <!-- Book: 1984 -->
+    <div class="book">
+      <h2>1984 – George Orwell</h2>
+      <div class="question">
+        <strong>Question:</strong> Which 1984 song by Corey Hart depicts a futuristic surveillance society with Orwellian overtones?  
+        <div class="answer"><strong>Answer:</strong> "Sunglasses at Night."</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which 1979 song by Cheap Trick is about a police force that arrests people for illicit thoughts, similar to the concept of thoughtcrime in 1984?  
+        <div class="answer"><strong>Answer:</strong> "Dream Police."</div>
+      </div>
+    </div>
+
+    <!-- Book: The Great Gatsby -->
+    <div class="book">
+      <h2>The Great Gatsby – F. Scott Fitzgerald</h2>
+      <div class="question">
+        <strong>Question:</strong> What was the original title F. Scott Fitzgerald considered for The Great Gatsby before its publication?  
+        <div class="answer"><strong>Answer:</strong> Trimalchio in West Egg.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> In which fictional location is Jay Gatsby's mansion situated in The Great Gatsby?  
+        <div class="answer"><strong>Answer:</strong> West Egg.</div>
+      </div>
+    </div>
+
+    <!-- Book: Moby-Dick -->
+    <div class="book">
+      <h2>Moby-Dick – Herman Melville</h2>
+      <div class="question">
+        <strong>Question:</strong> Which real-life whale inspired Herman Melville's depiction of the titular character in Moby-Dick?  
+        <div class="answer"><strong>Answer:</strong> Mocha Dick.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What was the original title under which Moby-Dick was published in the UK?  
+        <div class="answer"><strong>Answer:</strong> The Whale.</div>
+      </div>
+    </div>
+
+    <!-- Book: Wuthering Heights -->
+    <div class="book">
+      <h2>Wuthering Heights – Emily Brontë</h2>
+      <div class="question">
+        <strong>Question:</strong> Under what pen name was Wuthering Heights originally published in 1847?  
+        <div class="answer"><strong>Answer:</strong> Ellis Bell.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which British singer released a song titled "Wuthering Heights" in 1978, inspired by the novel?  
+        <div class="answer"><strong>Answer:</strong> Kate Bush.</div>
+      </div>
+    </div>
+
+    <!-- Book: Jane Eyre -->
+    <div class="book">
+      <h2>Jane Eyre – Charlotte Brontë</h2>
+      <div class="question">
+        <strong>Question:</strong> Under what pen name was Jane Eyre first published in 1847?  
+        <div class="answer"><strong>Answer:</strong> Currer Bell.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which 2011 film adaptation of Jane Eyre starred Mia Wasikowska as Jane and Michael Fassbender as Mr. Rochester?  
+        <div class="answer"><strong>Answer:</strong> Jane Eyre (2011).</div>
+      </div>
+    </div>
+
+    <!-- Book: Crime and Punishment -->
+    <div class="book">
+      <h2>Crime and Punishment – Fyodor Dostoevsky</h2>
+      <div class="question">
+        <strong>Question:</strong> In which Russian literary magazine was Crime and Punishment first published in 1866?  
+        <div class="answer"><strong>Answer:</strong> The Russian Messenger.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which 1935 American film adaptation of Crime and Punishment starred Peter Lorre as Raskolnikov?  
+        <div class="answer"><strong>Answer:</strong> Crime and Punishment (1935).</div>
+      </div>
+    </div>
+
+    <!-- Book: War and Peace -->
+    <div class="book">
+      <h2>War and Peace – Leo Tolstoy</h2>
+      <div class="question">
+        <strong>Question:</strong> Which historical event serves as the backdrop for Tolstoy's War and Peace?  
+        <div class="answer"><strong>Answer:</strong> The Napoleonic Wars.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which 1956 film adaptation of War and Peace featured Audrey Hepburn as Natasha Rostova?  
+        <div class="answer"><strong>Answer:</strong> War and Peace (1956).</div>
+      </div>
+    </div>
+
+    <!-- Book: The Catcher in the Rye -->
+    <div class="book">
+      <h2>The Catcher in the Rye – J.D. Salinger</h2>
+      <div class="question">
+        <strong>Question:</strong> Which 1970s American rock band took their name from a misinterpretation of a character's name in The Catcher in the Rye?  
+        <div class="answer"><strong>Answer:</strong> The band The Catcher in the Rye.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which 2002 film features a character who is obsessed with The Catcher in the Rye and believes it contains a hidden message?  
+        <div class="answer"><strong>Answer:</strong> Conspiracy Theory.</div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+  
+</body>
+</html>

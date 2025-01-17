@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-Fiction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .book {
+      margin-bottom: 20px;
+    }
+    .book h2 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    .question {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f9f9f9;
+    }
+    .answer {
+      margin-top: 5px;
+      color: #555;
+    }
+    .back-button {
+      margin: 20px 0;
+    }
+    .back-button button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .back-button button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="back-button">
+      <button onclick="goBack()">← Back</button>
+    </div>
+
+    <h1>Non-Fiction</h1>
+
+    <!-- Book: Sapiens -->
+    <div class="book">
+      <h2>Sapiens: A Brief History of Humankind – Yuval Noah Harari</h2>
+      <div class="question">
+        <strong>Question:</strong> Which continent does the author consider the origin of Homo Sapiens?  
+        <div class="answer"><strong>Answer:</strong> Africa.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the first fictional entity that Harari cites as an example of an "imagined order"?  
+        <div class="answer"><strong>Answer:</strong> Peugeot.</div>
+      </div>
+    </div>
+
+    <!-- Book: The Immortal Life of Henrietta Lacks -->
+    <div class="book">
+      <h2>The Immortal Life of Henrietta Lacks – Rebecca Skloot</h2>
+      <div class="question">
+        <strong>Question:</strong> What property of Henrietta is taken without her consent?  
+        <div class="answer"><strong>Answer:</strong> Her cells.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What type of cancer was Henrietta Lacks diagnosed with?  
+        <div class="answer"><strong>Answer:</strong> Cervical cancer.</div>
+      </div>
+    </div>
+
+    <!-- Book: Thinking, Fast and Slow -->
+    <div class="book">
+      <h2>Thinking, Fast and Slow – Daniel Kahneman</h2>
+      <div class="question">
+        <strong>Question:</strong> What are the two modes of thinking that Kahneman describes in Thinking, Fast and Slow?  
+        <div class="answer"><strong>Answer:</strong> System 1 (fast, automatic) and System 2 (slow, deliberate).</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the cognitive bias where people overestimate their ability to predict outcomes?  
+        <div class="answer"><strong>Answer:</strong> Hindsight bias.</div>
+      </div>
+    </div>
+
+    <!-- Book: A Brief History of Time -->
+    <div class="book">
+      <h2>A Brief History of Time – Stephen Hawking</h2>
+      <div class="question">
+        <strong>Question:</strong> What does Hawking describe as the role of "imaginary time" in understanding the universe's origin?  
+        <div class="answer"><strong>Answer:</strong> It removes the singularity, making the universe finite but without boundaries.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What does the "no-boundary proposal" suggest about the universe?  
+        <div class="answer"><strong>Answer:</strong> The universe has no boundaries in space-time, making it self-contained.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+  
+</body>
+</html>

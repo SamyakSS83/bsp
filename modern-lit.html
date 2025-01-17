@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Literature</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .book {
+      margin-bottom: 20px;
+    }
+    .book h2 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    .question {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f9f9f9;
+    }
+    .answer {
+      margin-top: 5px;
+      color: #555;
+    }
+    .back-button {
+      margin: 20px 0;
+    }
+    .back-button button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .back-button button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="back-button">
+      <button onclick="goBack()">← Back</button>
+    </div>
+
+    <h1>Modern Literature</h1>
+
+    <!-- Book: The Road -->
+    <div class="book">
+      <h2>The Road – Cormac McCarthy</h2>
+      <div class="question">
+        <strong>Question:</strong> What food do the father and son discover in a hidden bunker that becomes a rare moment of hope?  
+        <div class="answer"><strong>Answer:</strong> Canned goods and fresh water.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What recurring phrase does the father use to reassure the son about their morality?  
+        <div class="answer"><strong>Answer:</strong> "We’re carrying the fire."</div>
+      </div>
+    </div>
+
+    <!-- Book: Life of Pi -->
+    <div class="book">
+      <h2>Life of Pi – Yann Martel</h2>
+      <div class="question">
+        <strong>Question:</strong> Piscine Molitor Patel is named after?  
+        <div class="answer"><strong>Answer:</strong> A swimming pool, Piscina Marabilis.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the tiger?  
+        <div class="answer"><strong>Answer:</strong> Richard Parker.</div>
+      </div>
+    </div>
+
+    <!-- Book: The Goldfinch -->
+    <div class="book">
+      <h2>The Goldfinch – Donna Tartt</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the painting Theo steals during the museum bombing?  
+        <div class="answer"><strong>Answer:</strong> The Goldfinch by Carel Fabritius.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> In which European city does Theo reunite with Boris years after their teenage friendship?  
+        <div class="answer"><strong>Answer:</strong> Amsterdam.</div>
+      </div>
+    </div>
+
+    <!-- Book: Normal People -->
+    <div class="book">
+      <h2>Normal People – Sally Rooney</h2>
+      <div class="question">
+        <strong>Question:</strong> Which character says: ‘Everyone likes you. And unlike most people you’re actually a nice person.’  
+        <div class="answer"><strong>Answer:</strong> Marianne.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Where do Connell and Marianne first see each other at university?  
+        <div class="answer"><strong>Answer:</strong> At a party.</div>
+      </div>
+    </div>
+
+    <!-- Book: Circe -->
+    <div class="book">
+      <h2>Circe – Madeline Miller</h2>
+      <div class="question">
+        <strong>Question:</strong> What gift does Helios give Circe as a punishment for her defiance?  
+        <div class="answer"><strong>Answer:</strong> He banishes her to the island of Aiaia.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Who is the first mortal to visit Circe’s island and teach her the consequences of her powers?  
+        <div class="answer"><strong>Answer:</strong> Glaucus.</div>
+      </div>
+    </div>
+
+    <!-- Book: A Man Called Ove -->
+    <div class="book">
+      <h2>A Man Called Ove – Fredrik Backman</h2>
+      <div class="question">
+        <strong>Question:</strong> What car did Rune purchase that Ove claims is the reason for their ended friendship?  
+        <div class="answer"><strong>Answer:</strong> BMW.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What did Tom steal from Ove?  
+        <div class="answer"><strong>Answer:</strong> His father’s watch.</div>
+      </div>
+    </div>
+
+    <!-- Book: The Midnight Library -->
+    <div class="book">
+      <h2>The Midnight Library – Matt Haig</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the librarian who guides Nora in the Midnight Library?  
+        <div class="answer"><strong>Answer:</strong> Mrs. Elm.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the regret tied to the alternate life where Nora becomes a glaciologist?  
+        <div class="answer"><strong>Answer:</strong> She dies in an avalanche.</div>
+      </div>
+    </div>
+
+    <!-- Book: Where the Crawdads Sing -->
+    <div class="book">
+      <h2>Where the Crawdads Sing – Delia Owens</h2>
+      <div class="question">
+        <strong>Question:</strong> What nickname does Kya earn from the townspeople due to her reclusive nature?  
+        <div class="answer"><strong>Answer:</strong> The Marsh Girl.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What bird does Kya closely associate with her late mother?  
+        <div class="answer"><strong>Answer:</strong> A heron.</div>
+      </div>
+    </div>
+
+    <!-- Book: The Night Circus -->
+    <div class="book">
+      <h2>The Night Circus – Erin Morgenstern</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the magical clock created by Herr Thiessen for the circus?  
+        <div class="answer"><strong>Answer:</strong> The Wunderschön Clock.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What color scheme is strictly followed by performers and attendees of the circus?  
+        <div class="answer"><strong>Answer:</strong> Black, white, and shades of grey.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+  
+</body>
+</html>

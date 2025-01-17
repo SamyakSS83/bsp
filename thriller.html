@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thriller</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .book {
+      margin-bottom: 20px;
+    }
+    .book h2 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    .question {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f9f9f9;
+    }
+    .answer {
+      margin-top: 5px;
+      color: #555;
+    }
+    .back-button {
+      margin: 20px 0;
+    }
+    .back-button button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .back-button button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Back Button -->
+  <div class="back-button">
+    <button onclick="goBack()">← Back</button>
+  </div>
+  
+  <div class="container">
+    <h1>Thriller</h1>
+    
+    <!-- Book: Gone Girl -->
+    <div class="book">
+      <h2>Gone Girl – Gillian Flynn</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the bar that Nick Dunne owns with his sister Margo in Gone Girl?  
+        <div class="answer"><strong>Answer:</strong> The bar is called The Bar.</div>
+      </div>
+    </div>
+    
+    <!-- Book: The Da Vinci Code -->
+    <div class="book">
+      <h2>The Da Vinci Code – Dan Brown</h2>
+      <div class="question">
+        <strong>Question:</strong> Which secret society is central to the plot of The Da Vinci Code?  
+        <div class="answer"><strong>Answer:</strong> The Priory of Sion.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the albino monk assassin in the novel?  
+        <div class="answer"><strong>Answer:</strong> Silas.</div>
+      </div>
+    </div>
+
+    <!-- Book: Big Little Lies -->
+    <div class="book">
+      <h2>Big Little Lies – Liane Moriarty</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the middle school that the children attend in Big Little Lies?  
+        <div class="answer"><strong>Answer:</strong> Pirriwee Public School.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which character is revealed to have an abusive relationship with her husband, Perry?  
+        <div class="answer"><strong>Answer:</strong> Celeste Wright.</div>
+      </div>
+    </div>
+
+    <!-- Book: Murder on the Orient Express -->
+    <div class="book">
+      <h2>Murder on the Orient Express – Agatha Christie</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the real name of the murder victim, Ratchett, in Murder on the Orient Express?  
+        <div class="answer"><strong>Answer:</strong> His real name is Cassetti.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which famous detective is the protagonist of the novel?  
+        <div class="answer"><strong>Answer:</strong> Hercule Poirot.</div>
+      </div>
+    </div>
+
+    <!-- Book: The Hound of the Baskervilles -->
+    <div class="book">
+      <h2>The Hound of the Baskervilles – Arthur Conan Doyle</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the Baskerville family estate in the novel?  
+        <div class="answer"><strong>Answer:</strong> Baskerville Hall.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Who is the naturalist neighbor and secret antagonist in the story?  
+        <div class="answer"><strong>Answer:</strong> Jack Stapleton.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>

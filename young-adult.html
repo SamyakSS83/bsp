@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Young Adult</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .book {
+      margin-bottom: 20px;
+    }
+    .book h2 {
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    .question {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f9f9f9;
+    }
+    .answer {
+      margin-top: 5px;
+      color: #555;
+    }
+    .back-button {
+      margin: 20px 0;
+    }
+    .back-button button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .back-button button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="back-button">
+      <button onclick="goBack()">← Back</button>
+    </div>
+
+    <h1>Young Adult</h1>
+
+    <!-- Book: The Hunger Games -->
+    <div class="book">
+      <h2>The Hunger Games – Suzanne Collins</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the significance of the plant katniss in the book, aside from being the protagonist’s name?  
+        <div class="answer"><strong>Answer:</strong> It's an edible plant symbolizing survival, much like Katniss's role as a survivor.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> In which District does Gale work in the mines, and what resource does it produce?  
+        <div class="answer"><strong>Answer:</strong> District 12, which produces coal.</div>
+      </div>
+    </div>
+
+    <!-- Book: Harry Potter and the Sorcerer’s Stone -->
+    <div class="book">
+      <h2>Harry Potter and the Sorcerer’s Stone – J.K. Rowling</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the first spell Hermione Granger successfully demonstrates to Harry and Ron?  
+        <div class="answer"><strong>Answer:</strong> Reparo.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the date that Harry receives his first chocolate frog?  
+        <div class="answer"><strong>Answer:</strong> 1 Sept, 1991.</div>
+      </div>
+    </div>
+
+    <!-- Book: The Fault in Our Stars -->
+    <div class="book">
+      <h2>The Fault in Our Stars – John Green</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the title of the fictional book that Hazel and Augustus obsess over?  
+        <div class="answer"><strong>Answer:</strong> An Imperial Affliction.</div>
+      </div>
+    </div>
+
+    <!-- Book: Eleanor & Park -->
+    <div class="book">
+      <h2>Eleanor & Park – Rainbow Rowell</h2>
+      <div class="question">
+        <strong>Question:</strong> What comic book series does Park introduce to Eleanor on the school bus?  
+        <div class="answer"><strong>Answer:</strong> Watchmen.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What color is Eleanor’s iconic hair, often mentioned throughout the book?  
+        <div class="answer"><strong>Answer:</strong> Bright red.</div>
+      </div>
+    </div>
+
+    <!-- Book: Divergent -->
+    <div class="book">
+      <h2>Divergent – Veronica Roth</h2>
+      <div class="question">
+        <strong>Question:</strong> What is the first fear that Tris faces during her fear simulation in Divergent?  
+        <div class="answer"><strong>Answer:</strong> Being attacked by birds.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> Which Faction does Christina originally belong to before transferring to Dauntless?  
+        <div class="answer"><strong>Answer:</strong> Candor.</div>
+      </div>
+    </div>
+
+    <!-- Book: The Perks of Being a Wallflower -->
+    <div class="book">
+      <h2>The Perks of Being a Wallflower – Stephen Chbosky</h2>
+      <div class="question">
+        <strong>Question:</strong> What gift does Patrick give Charlie for Secret Santa?  
+        <div class="answer"><strong>Answer:</strong> A suit jacket and tie.</div>
+      </div>
+    </div>
+
+    <!-- Book: A Court of Thorns and Roses -->
+    <div class="book">
+      <h2>A Court of Thorns and Roses – Sarah J. Maas</h2>
+      <div class="question">
+        <strong>Question:</strong> What type of fae is Tamlin, the High Lord of the Spring Court?  
+        <div class="answer"><strong>Answer:</strong> High Fae.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What material does Feyre use to kill the wolf that changes her life forever?  
+        <div class="answer"><strong>Answer:</strong> Ash wood.</div>
+      </div>
+    </div>
+
+    <!-- Book: Looking for Alaska -->
+    <div class="book">
+      <h2>Looking for Alaska – John Green</h2>
+      <div class="question">
+        <strong>Question:</strong> What nickname does Alaska give to Miles Halter?  
+        <div class="answer"><strong>Answer:</strong> Pudge.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What literary genre does Alaska focus on for her collection of books?  
+        <div class="answer"><strong>Answer:</strong> Magical Realism.</div>
+      </div>
+    </div>
+
+    <!-- Book: If I Stay -->
+    <div class="book">
+      <h2>If I Stay – Gayle Forman</h2>
+      <div class="question">
+        <strong>Question:</strong> What instrument does Mia play, central to her identity in the story?  
+        <div class="answer"><strong>Answer:</strong> Cello.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the name of Mia’s boyfriend’s band?  
+        <div class="answer"><strong>Answer:</strong> Shooting Star.</div>
+      </div>
+    </div>
+
+    <!-- Book: Shadow and Bone -->
+    <div class="book">
+      <h2>Shadow and Bone – Leigh Bardugo</h2>
+      <div class="question">
+        <strong>Question:</strong> What rare Grisha ability does Alina Starkov discover she has?  
+        <div class="answer"><strong>Answer:</strong> Sun Summoner / manipulate light.</div>
+      </div>
+      <div class="question">
+        <strong>Question:</strong> What is the name of the stag Alina is tasked to hunt?  
+        <div class="answer"><strong>Answer:</strong> Morozova’s stag.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+  
+</body>
+</html>

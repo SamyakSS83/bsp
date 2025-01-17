@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genres</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f7f7f7;
+    }
+    .genre-container {
+      max-width: 600px;
+      width: 90%;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .genre-container h1 {
+      text-align: center;
+      color: #333;
+    }
+    .genre-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+    .genre-list li {
+      margin: 10px 0;
+      padding: 15px;
+      background: #007BFF;
+      color: white;
+      border-radius: 4px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .genre-list li:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="genre-container">
+    <h1>Select a Genre</h1>
+    <ul class="genre-list">
+      <li onclick="goToGenre('classics')">Classics</li>
+      <li onclick="goToGenre('scifi-fantasy')">Sci-Fi and Fantasy</li>
+      <li onclick="goToGenre('thriller')">Thriller</li>
+      <li onclick="goToGenre('historical-fiction')">Historical Fiction</li>
+      <li onclick="goToGenre('non-fiction')">Non-Fiction</li>
+      <li onclick="goToGenre('young-adult')">Young Adult</li>
+      <li onclick="goToGenre('modern-lit')">Modern Literature</li>
+      <li onclick="goToGenre('others')">Others</li>
+    </ul>
+  </div>
+
+  <script>
+    function goToGenre(genre) {
+      window.location.href = `${genre}.html`;
+    }
+  </script>
+</body>
+</html>
